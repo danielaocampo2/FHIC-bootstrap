@@ -1,0 +1,67 @@
+
+html{
+    font-family : sans-serif;
+}
+
+.fondoGato {
+    background-image: url('./imagenes/Gato.JPG');
+    background-size: cover;
+    height: 76vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    background-color: goldenrod;
+}
+
+.card-body{
+    background: #dcdedeb8;
+}
+
+.titulos{
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 76vh;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-form{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: center !important;
+    
+}
+
+.copyright{
+    text-align: end;
+    color: white;
+}
+.menu{
+    margin-top: 30px;
+    
+}
+caption {
+    color: #00070d;
+    text-align: center;
+    font-weight: bold;
+}
+
